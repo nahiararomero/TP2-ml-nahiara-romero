@@ -242,15 +242,18 @@ article img {
     justify-content: space-between;
 
 }
+.image-banner{
+    display: none;
+}
+
+
+
 
 
 @media(min-width: 361px) {
     
-   
-
-    article {
-       
-        width: 40%;
+   article {
+       width: 40%;
     }
 
     .productos {
@@ -264,27 +267,28 @@ article img {
         padding: 20px;
 
     }
+    
+     
 
     .izquierda ul li {
         display: inline-block;
 
         margin-left: 20px;
 
-
-
-
-
-    }
+}
 
     .derecha ul li {
         display: inline-block;
 
         margin-left: 20px;
     }
-}
+    .image-banner{
+        display: none;
+    }
+    
 
 
-@media(min-width: 769px) {}
+@media(min-width: 769px) {
 
 article {
     width: 20%;
@@ -298,3 +302,13 @@ article {
 .burger-menu {
     display: none;
 }
+.image-banner{
+    max-width: 100%;
+    height: auto;
+    display: block;
+ 
+ }
+ footer{
+    display: flex;
+    justify-content: space-around;
+ }}}
