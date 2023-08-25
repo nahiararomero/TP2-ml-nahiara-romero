@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+  
+
+}
+
+form{
+    
+    padding: 15px;
+    justify-content: center;
+
+}
+
+.control-formulario{
+    margin-bottom: 15px;
+
+
+   
+}
+
+.control{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+
+
+}
+
+h4{
+   margin-bottom: 15px;
+   margin-top: 15px;
+   padding-bottom: 10px;
+   display: block;
+    
+}
+.boton{
+    background-color: var(--celeste);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-align: center;
+}
+.boton:hover{
+    background-color: #0022AA;
+}
+
+.check{
+    margin: 20px;
+    
+}
+

@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; }
+
+    .controladores{
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+       
+    }
+    form{
+        padding: 15px;
+    text-align: center;
+    margin: 15px;
+    
+    
+    }
+    .control{
+        width: 80%;
+        padding: 8px;
+        border: none;
+        border-radius: 5px;
+    }
+    .boton{
+        width: 100%;
+        background-color: var(--celeste);
+        color: #ffff;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        width: 80%;
+    }
+    .header-superior {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    .boton:hover{
+        background-color: #0022AA;
+    }
